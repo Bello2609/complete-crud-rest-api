@@ -1,0 +1,36 @@
+{
+  "name": "reastful_api",
+  "version": "1.0.0",
+  "description": "a complete rest api begining",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bello2609/restapi.git"
+  },
+  "author": "bello hadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bello2609/restapi/issues"
+  },
+  "homepage": "https://github.com/bello2609/restapi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "keywords": [
+    "api"
+  ]
+}
